@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(221, 174, 87);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+section.container {
+    width: 800px;
+    max-width: 90%;
+    background: rgb(0 0 0 / 90%);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 45%), 0 4px 6px -2px rgb(0 0 0 / 46%);
+}
+
+.box {
+    padding: 20px;
+    background: #5d964f;
+    display: flex;
+    align-items: center;
+}
+
+.box h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #020202;
+    margin-left: 50px;
+}
+
+.message_box {
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background: #FBFBFB;
+}
+
+.message {
+    padding: 15px;
+    border-radius: 9px;
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}
+
+.incoming {
+    background: #656cc5;
+    color: #fff;
+}
+
+.outgoing {
+    background: #f39140;
+    color: #1d1e1f;
+    margin-left: auto;
+}
+
+.message h4 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.iconx {
+    display: flex;
+}
+
+.mic {
+    background-color: white;
+    padding: 10px;
+    border: none;
+}
